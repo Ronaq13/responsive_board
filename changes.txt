@@ -1,0 +1,22 @@
+Changes in index.html: 
+
+1. Changed layout of body from row to column.
+2. Make 2 div's, first will contain main toolbar and second will contain rest of the content.
+3. Main toolbar same code , but just have changed something in search toolbar.
+   3.1 Removed back text
+   3.2 Reduced the size of buttons, so that they can be fixed on small screen.
+4. In the second div (content) we have our both sidenav's and ui-view
+5. Important: Added one more button for toggleing sidenav left when screen is 'sm' or 'xs', and this 
+   button is only visible when screen is small.
+   Line number : 60-63
+
+
+
+Changes in AppController.js :
+
+1. Removed-> 'this' object by $scope and removed 'this.iconsOnly = true' line.
+2. Added-> a $watch function
+        Code line number: 7-22
+
+
+                                  -------------X--------------
